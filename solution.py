@@ -61,11 +61,11 @@ stages = [
     """
 ]
 
-# Setup game variables
+
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 display = ["_"] * word_length
-attempts = len(stages) - 1
+attempts = len(stages) - 1 
 guessed_letters = []
 
 print("Welcome to Hangman!")
